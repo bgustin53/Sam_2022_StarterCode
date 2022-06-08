@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Level1 extends World
 {
-    
+
     /**
      * Constructor for objects of class BrickWorld.
      * 
@@ -27,6 +27,11 @@ public class Level1 extends World
     private void prepareScene()
     {
         setPaintOrder(Player.class, Platform.class, Obstacle.class, Collectable.class,
-              Door.class, HUD.class);
+            Door.class, HUD.class);
+            
+        // Objects added to scene in starter code
+        addObject(new Door(),1174,43); 
+        addObject(new Player(),140,757);
     }
+   
 }
