@@ -26,7 +26,7 @@ public class SamsWorld extends World
      */
     private void prepareScene()
     {
-        setPaintOrder(Player.class, Platform.class, Hazards.class, Collectable.class,
+        setPaintOrder(Player.class, Hazards.class, Platform.class, Collectable.class,
             Door.class, Health.class);
             
         // Objects added to scene in starter code
