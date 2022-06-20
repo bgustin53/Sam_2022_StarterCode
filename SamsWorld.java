@@ -29,7 +29,6 @@ public class SamsWorld extends World
         setPaintOrder(Player.class, Hazards.class, Scoreable.class, Platform.class, Health.class);
             
         // Objects added to scene in starter code
-        addObject(new Door(),1174,43); 
         addObject(new Player(),140,757);
     }
    
